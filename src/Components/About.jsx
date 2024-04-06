@@ -24,20 +24,13 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  " Soy un joven de 20 años, actualmente estudiando en la Universidad Tecnologica Nacional, Facultad Regional De Villa Maria. Me considero una persona proactiva, con ganas de aprender y crecer en el mundo de la programacion. Me gusta trabajar en equipo y soy muy responsable con las tareas que me propongo.Actualmente estoy aprendiendo sobre desarrollo web, utilizando tecnologias como HTML, CSS, Javascript, React, NodeJs, Express, MongoDB, entre otras.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -45,7 +38,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Me apasiona resolver problemas de nuevas formas y creativa para impulsar la innovación. Busco continuamente aprender sobre las nuevas tecnologias porque considero que el aprendizaje constante es una parte fundamental en esta area.";
 
 const About = () => {
   return (
@@ -60,22 +53,8 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>Acerca de mí</h2>
         <p className="large">{description}</p>
-        <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
