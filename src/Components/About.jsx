@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  " Soy un joven de 20 años, actualmente estudiando en la Universidad Tecnologica Nacional, Facultad Regional De Villa Maria. Me considero una persona proactiva, con ganas de aprender y crecer en el mundo de la programacion. Me gusta trabajar en equipo y soy muy responsable con las tareas que me propongo.Actualmente estoy aprendiendo sobre desarrollo web, utilizando tecnologias como HTML, CSS, Javascript, React, NodeJs, Express, MongoDB, entre otras.";
+  " Soy un joven de 20 años, actualmente estudiando en la Universidad Tecnologica Nacional, Facultad Regional De Villa Maria, cursando tercer año. Me considero una persona proactiva, con ganas de aprender y crecer en el mundo de la programacion. Me gusta trabajar en equipo y soy muy responsable con las tareas que me propongo. Actualmente estoy aprendiendo sobre desarrollo web, utilizando tecnologias como HTML, CSS, Javascript, React, NodeJs, Express, MongoDB, entre otras.";
 
 /**
  * List of some of skills or technologies you work on, are learning,

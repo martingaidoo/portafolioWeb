@@ -11,8 +11,10 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import { Skills } from "./Components/Skills";
 
 import "./styles.css";
+import { Contact } from "./Components/Contact";
 
 /**
  * This object represents your information. The project is set so that you
@@ -44,7 +46,9 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Skills />
       <Portfolio />
+      <Contact />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
