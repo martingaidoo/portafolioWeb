@@ -31,9 +31,9 @@ const About = () => {
         }}
       >
         <h2>Acerca de mí</h2>
-        <p className="large">{description}</p>
+        <p className="large letrasChicasMedia" id="sobremi">{description}</p>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p className="letrasChicasMedia" style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

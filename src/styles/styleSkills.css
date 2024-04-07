@@ -4,7 +4,7 @@
     margin: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, 
-                            minmax(min(11.25rem, 100%), 1fr));
+                            minmax(min(8.25rem, 100%), 1fr));
     grid-gap: 0.1rem;
 }
 
@@ -52,25 +52,25 @@
   }
 
 .card {
-    width: 10rem;
-    height: 14rem;
+    width: 7rem;
+    height: 10rem;
     border-radius: 20px;
     transition: all .3s;
     border: 2px solid #757575;
    }
 
    .card img{
-    margin-top:1.5rem;
-    width: 10rem;
-    height: 10rem;
+    margin-top:0.7rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 20px;
     transition: all .2s;
    
    }
 
 .card2 {
-  width: 10rem;
-  height: 14rem;
+  width: 7rem;
+  height: 10rem;
     background-color: #ffffff;
     border-radius: 20px;
     transition: all .2s;
