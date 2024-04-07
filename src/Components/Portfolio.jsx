@@ -1,12 +1,4 @@
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */
+
 
 import React from "react";
 import { ComponentHabilidadChico } from "./ComponentHabilidadChico";
@@ -29,51 +21,6 @@ import react from '../images/react.png'
 
 
 
-
-
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
-
-
-/**
- * Project list
- *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
- */
-const projectList = [
-  {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
-];
 
 const Portfolio = () => {
   return (
@@ -103,11 +50,9 @@ const Portfolio = () => {
               </svg>
             </button>
               </a>
-            <a href=""
-                        target="_blank"
-                        rel="noopener noreferrer">
+            <a href={window.location.href} target="_blank" rel="noopener noreferrer">
             <button className="btn margen1rem">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC"/>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC" alt="link"/>
         </button>
             </a>
               </div>
@@ -135,11 +80,11 @@ const Portfolio = () => {
               </svg>
             </button>
               </a>
-            <a href=""
+            <a href={window.location.href}
                         target="_blank"
                         rel="noopener noreferrer">
             <button className="btn margen1rem">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC"/>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC" alt="link"/>
         </button>
             </a>
               </div>
@@ -172,11 +117,11 @@ const Portfolio = () => {
               </svg>
             </button>
               </a>
-            <a href=""
+            <a href={window.location.href}
                         target="_blank"
                         rel="noopener noreferrer">
             <button className="btn margen1rem">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC"/>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC" alt="link"/>
         </button>
             </a>
               </div>
