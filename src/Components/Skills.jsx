@@ -16,6 +16,10 @@ import npm from "../images/npm.png"
 import figma from "../images/figma.png"
 import photoshop from "../images/photoshop.png"
 import bootstrap from '../images/bootstrap.png'
+import mongo from '../images/mongo.png'
+import postgresql from '../images/postgresql.png'
+
+
 
 
 export const Skills = () => {
@@ -30,14 +34,14 @@ export const Skills = () => {
     <ComponentHabilidad imagen={python} nombre="python" valor="70%"/>
     <ComponentHabilidad imagen={java} nombre="java" valor="50%"/>
     </div>
-    <h3>Frameworks y Librerias</h3>
+    <h3>Frameworks y Librerías</h3>
 
     <div className='contenedorHabilidades'>
     <ComponentHabilidad imagen={react} nombre="react" valor="40%"/>
     <ComponentHabilidad imagen={node} nombre="node" valor="40%"/>
     <ComponentHabilidad imagen={express} nombre="express" valor="35%"/>
     </div>
-    <h3>Tecnologias y Herramientas</h3>
+    <h3>Tecnologías y Herramientas</h3>
 
     <div className='contenedorHabilidades'>
     <ComponentHabilidad imagen={git} nombre="git" valor="40%"/>
@@ -49,6 +53,11 @@ export const Skills = () => {
 
     </div>
 
+    <h3>Bases De Datos</h3>
+    <div className='contenedorHabilidades'>
+    <ComponentHabilidad imagen={postgresql} nombre="PostgreSql" valor="40%"/>
+    <ComponentHabilidad imagen={mongo} nombre="MongoDB" valor="40%"/>
+    </div>
     </div>
   )
 }

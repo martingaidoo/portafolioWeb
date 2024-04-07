@@ -130,6 +130,55 @@ a:hover {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 690px) {
+  .container .box {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .container .Informacion .small{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .container img{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    margin-left: 15%;
+  }
+
+  /*aca va a estar lo de contact*/
+  .container-contact{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .container-contact-img{
+    align-items: start;
+    margin-left: 0;
+  }
+  .form-container{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 600px){
+  .container-contact-img {
+    display: none; /* Esto ocultará la imagen */
+  }
+  .form-container {
+    width: 100%; /* Esto hará que el formulario ocupe todo el ancho disponible */
+  }
+
+}
+@media screen {
+  .container .box {
+    animation: slideInLeft 1s;
+  }
+}
+
 .container .Informacion{
   display: flex;
   flex-direction: column;

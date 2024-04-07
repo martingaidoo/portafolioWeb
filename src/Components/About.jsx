@@ -1,53 +1,30 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
-
-import React from "react";
-
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
+import React, { useState, useEffect } from "react";
 import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
-/**
- * Sort description that expands on your title on the Home component.
- */
 const description =
-  " Soy un joven de 20 años, actualmente estudiando en la Universidad Tecnologica Nacional, Facultad Regional De Villa Maria, cursando tercer año. Me considero una persona proactiva, con ganas de aprender y crecer en el mundo de la programacion. Me gusta trabajar en equipo y soy muy responsable con las tareas que me propongo. Actualmente estoy aprendiendo sobre desarrollo web, utilizando tecnologias como HTML, CSS, Javascript, React, NodeJs, Express, MongoDB, entre otras.";
+  "Soy un joven de 20 años, actualmente estudiando en la Universidad Tecnológica Nacional, Facultad Regional De Villa María, cursando tercer año. Me considero una persona proactiva, con ganas de aprender y crecer en el mundo de la programación. Me gusta trabajar en equipo y soy muy responsable con las tareas que me propongo. Actualmente estoy aprendiendo sobre desarrollo web, utilizando tecnologías como HTML, CSS, JavaScript, React, NodeJs, Express, MongoDB, entre otras.";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
-
-
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
 const detailOrQuote =
-  "Me apasiona resolver problemas de nuevas formas y creativa para impulsar la innovación. Busco continuamente aprender sobre las nuevas tecnologias porque considero que el aprendizaje constante es una parte fundamental en esta area.";
+  "Me apasiona resolver problemas de nuevas formas creativas para impulsar la innovación. Busco continuamente aprender sobre las nuevas tecnologías porque considero que el aprendizaje constante es una parte fundamental en esta área.";
 
 const About = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      setIsMobile(window.innerWidth < 768);
+    });
+  }, []);
+
   return (
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
-          width: "50%",
+          width: isMobile ? "80%" : "50%", // Cambia el ancho dependiendo del tamaño de la pantalla
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",

@@ -13,7 +13,7 @@ const Header = () => {
         position: "fixed",
         display: "flex",
         justifyContent: "center",
-        gap: "2rem",
+        gap: "1.5rem",
         background: "rgba(255,255,255,0.75)",
         padding: "1rem",
         top: 0,
@@ -21,11 +21,11 @@ const Header = () => {
         zIndex: 10,
       }}
     >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
+      <a href="#home">Inicio</a>
+      <a href="#about">Sobre Mí</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#portfolio">Proyectos</a>
+      <a href="#contact">Contacto</a>
     </div>
   );
 };

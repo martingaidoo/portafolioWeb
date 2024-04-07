@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 
                             minmax(min(11.25rem, 100%), 1fr));
-    grid-gap: 1rem;
+    grid-gap: 0.1rem;
 }
 
 
@@ -20,7 +20,6 @@
   
   /* button styling */
   .buttonMovil {
-    --border-right: 6px;
     --text-stroke-color: rgba(0, 0, 0, 0.6);
     --animation-color: #37FF8B;
     --fs-size: 2em;
@@ -53,8 +52,8 @@
   }
 
 .card {
-    width: 190px;
-    height: 254px;
+    width: 10rem;
+    height: 14rem;
     border-radius: 20px;
     transition: all .3s;
     border: 2px solid #757575;
@@ -62,16 +61,16 @@
 
    .card img{
     margin-top:1.5rem;
-    width: 190px;
-    height: 190px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 20px;
     transition: all .2s;
    
    }
 
 .card2 {
-    width: 190px;
-    height: 254px;
+  width: 10rem;
+  height: 14rem;
     background-color: #ffffff;
     border-radius: 20px;
     transition: all .2s;
