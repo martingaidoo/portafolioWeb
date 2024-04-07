@@ -27463,15 +27463,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * Footer component
- *
- * Displays avenues to contact you.
- * Contact information is passed in from the App component that
- * renders the Footer.
- *
- * If a social value has an empty string it will not be displayed.
- */ var _react = require("react");
+var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
@@ -27491,12 +27483,7 @@ var _twitterSvg = require("../images/socials/twitter.svg");
 var _twitterSvgDefault = parcelHelpers.interopDefault(_twitterSvg);
 var _youtubeSvg = require("../images/socials/youtube.svg");
 var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
-/**
- * 💡 Learning resources
- *
- *  HTML hyperlinks: https://www.w3schools.com/html/html_links.asp
- *  Opening links in new tabs: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
- */ const Footer = (props)=>{
+const Footer = (props)=>{
     const { devDotTo , email , gitHub , instagram , linkedIn , medium , name , primaryColor , twitter , youTube ,  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "footer",
@@ -27525,12 +27512,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 65,
+                            lineNumber: 52,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 64,
+                        lineNumber: 51,
                         columnNumber: 11
                     }, undefined),
                     devDotTo && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27543,12 +27530,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 70,
+                            lineNumber: 57,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 69,
+                        lineNumber: 56,
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27561,12 +27548,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 75,
+                            lineNumber: 62,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 74,
+                        lineNumber: 61,
                         columnNumber: 11
                     }, undefined),
                     instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27579,12 +27566,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 84,
+                            lineNumber: 71,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 79,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, undefined),
                     linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27597,12 +27584,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 93,
+                            lineNumber: 80,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 88,
+                        lineNumber: 75,
                         columnNumber: 11
                     }, undefined),
                     medium && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27615,12 +27602,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 98,
+                            lineNumber: 85,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 97,
+                        lineNumber: 84,
                         columnNumber: 11
                     }, undefined),
                     twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27633,12 +27620,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 103,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 102,
+                        lineNumber: 89,
                         columnNumber: 11
                     }, undefined),
                     youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27651,18 +27638,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 112,
+                            lineNumber: 99,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 107,
+                        lineNumber: 94,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 56,
+                lineNumber: 43,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27677,13 +27664,13 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 116,
+                lineNumber: 103,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Footer.jsx",
-        lineNumber: 44,
+        lineNumber: 31,
         columnNumber: 5
     }, undefined);
 };
@@ -28487,12 +28474,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * Header component
- *
- * Top navigation bar for your site. Set to remain visible as the
- * user scrolls so that they can constantly reach any part of your page.
- */ var _react = require("react");
+var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28513,7 +28495,7 @@ const Header = ()=>{
                 children: "Inicio"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 24,
+                lineNumber: 19,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28521,7 +28503,7 @@ const Header = ()=>{
                 children: "Sobre M\xed"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 25,
+                lineNumber: 20,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28529,7 +28511,7 @@ const Header = ()=>{
                 children: "Habilidades"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 26,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28537,7 +28519,7 @@ const Header = ()=>{
                 children: "Proyectos"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
+                lineNumber: 22,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28545,13 +28527,13 @@ const Header = ()=>{
                 children: "Contacto"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 28,
+                lineNumber: 23,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Header.jsx",
-        lineNumber: 11,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
@@ -28806,15 +28788,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */ var _react = require("react");
+var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _componentHabilidadChico = require("./ComponentHabilidadChico");
 var _pythonPng = require("../images/python.png");
@@ -28839,41 +28813,6 @@ var _cssPng = require("../images/css.png");
 var _cssPngDefault = parcelHelpers.interopDefault(_cssPng);
 var _reactPng = require("../images/react.png");
 var _reactPngDefault = parcelHelpers.interopDefault(_reactPng);
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */ /**
- * Project list
- *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
- */ const projectList = [
-    {
-        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
-        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
-    },
-    {
-        title: "Web Development for Beginners",
-        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-        url: "https://github.com/microsoft/web-dev-for-beginners"
-    },
-    {
-        title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
-    },
-    {
-        title: "GitHub Codespaces and github.dev",
-        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
-    }, 
-];
 const Portfolio = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -28886,7 +28825,7 @@ const Portfolio = ()=>{
                 children: "PROYECTOS"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 81,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28910,7 +28849,7 @@ const Portfolio = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 87,
+                                    lineNumber: 34,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28923,7 +28862,7 @@ const Portfolio = ()=>{
                                             children: "Sistema de Gym"
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 36,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28931,7 +28870,7 @@ const Portfolio = ()=>{
                                             children: "Aplicaci\xf3n de escritorio desarrollada para el manejo de datos, con bases de datos relacionales, adem\xe1s implementando una api, para el envi\xf3 de mensajes por WhatsApp."
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 37,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28942,7 +28881,7 @@ const Portfolio = ()=>{
                                                     imagen: (0, _pythonPngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 39,
                                                     columnNumber: 13
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentHabilidadChico.ComponentHabilidadChico), {
@@ -28950,7 +28889,7 @@ const Portfolio = ()=>{
                                                     imagen: (0, _nodePngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 40,
                                                     columnNumber: 13
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentHabilidadChico.ComponentHabilidadChico), {
@@ -28958,13 +28897,13 @@ const Portfolio = ()=>{
                                                     imagen: (0, _sqlitePngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 41,
                                                     columnNumber: 13
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 91,
+                                            lineNumber: 38,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28988,63 +28927,64 @@ const Portfolio = ()=>{
                                                                 d: "M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"
                                                             }, void 0, false, {
                                                                 fileName: "src/Components/Portfolio.jsx",
-                                                                lineNumber: 102,
+                                                                lineNumber: 49,
                                                                 columnNumber: 17
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Portfolio.jsx",
-                                                            lineNumber: 101,
+                                                            lineNumber: 48,
                                                             columnNumber: 15
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/Components/Portfolio.jsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 47,
                                                         columnNumber: 15
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 44,
                                                     columnNumber: 15
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "",
+                                                    href: window.location.href,
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                                         className: "btn margen1rem",
                                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                            src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC"
+                                                            src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC",
+                                                            alt: "link"
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Portfolio.jsx",
-                                                            lineNumber: 110,
+                                                            lineNumber: 55,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/Components/Portfolio.jsx",
-                                                        lineNumber: 109,
+                                                        lineNumber: 54,
                                                         columnNumber: 13
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 106,
+                                                    lineNumber: 53,
                                                     columnNumber: 13
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 96,
+                                            lineNumber: 43,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 88,
+                                    lineNumber: 35,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 86,
+                            lineNumber: 33,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29059,7 +28999,7 @@ const Portfolio = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 119,
+                                    lineNumber: 64,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29072,7 +29012,7 @@ const Portfolio = ()=>{
                                             children: "Bot WhatsApp Turnero de peluquer\xeda"
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 121,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29080,7 +29020,7 @@ const Portfolio = ()=>{
                                             children: "Bot de whatsApp que responde consultas de clientes, registrado un turno para la peluquear\xeda, su desarrollo cuenta con una base de datos no relacional, se utiliza el Framework node.js, y tambi\xe9n hace uso de distintas Apis, como la de google calendar, o Google sheets."
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 122,
+                                            lineNumber: 67,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29091,7 +29031,7 @@ const Portfolio = ()=>{
                                                     imagen: (0, _javascriptPngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 69,
                                                     columnNumber: 13
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentHabilidadChico.ComponentHabilidadChico), {
@@ -29099,7 +29039,7 @@ const Portfolio = ()=>{
                                                     imagen: (0, _nodePngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 70,
                                                     columnNumber: 13
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentHabilidadChico.ComponentHabilidadChico), {
@@ -29107,13 +29047,13 @@ const Portfolio = ()=>{
                                                     imagen: (0, _mongoPngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 71,
                                                     columnNumber: 13
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 123,
+                                            lineNumber: 68,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29137,63 +29077,64 @@ const Portfolio = ()=>{
                                                                 d: "M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"
                                                             }, void 0, false, {
                                                                 fileName: "src/Components/Portfolio.jsx",
-                                                                lineNumber: 134,
+                                                                lineNumber: 79,
                                                                 columnNumber: 17
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Portfolio.jsx",
-                                                            lineNumber: 133,
+                                                            lineNumber: 78,
                                                             columnNumber: 15
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/Components/Portfolio.jsx",
-                                                        lineNumber: 132,
+                                                        lineNumber: 77,
                                                         columnNumber: 15
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 129,
+                                                    lineNumber: 74,
                                                     columnNumber: 15
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "",
+                                                    href: window.location.href,
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                                         className: "btn margen1rem",
                                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                            src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC"
+                                                            src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC",
+                                                            alt: "link"
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Portfolio.jsx",
-                                                            lineNumber: 142,
+                                                            lineNumber: 87,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/Components/Portfolio.jsx",
-                                                        lineNumber: 141,
+                                                        lineNumber: 86,
                                                         columnNumber: 13
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 138,
+                                                    lineNumber: 83,
                                                     columnNumber: 13
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 128,
+                                            lineNumber: 73,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 120,
+                                    lineNumber: 65,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 118,
+                            lineNumber: 63,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29208,7 +29149,7 @@ const Portfolio = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 151,
+                                    lineNumber: 96,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29221,7 +29162,7 @@ const Portfolio = ()=>{
                                             children: "M\xed portafolio"
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 153,
+                                            lineNumber: 98,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29229,7 +29170,7 @@ const Portfolio = ()=>{
                                             children: "Mi portafolio, desarrollada para mostrar mis habilidades, proyectos, y poder conectar con otros desarrolladores, se utilz\xf3 un template que fue modificada casi en su totalidad."
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 154,
+                                            lineNumber: 99,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29240,7 +29181,7 @@ const Portfolio = ()=>{
                                                     imagen: (0, _htmlPngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 156,
+                                                    lineNumber: 101,
                                                     columnNumber: 13
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentHabilidadChico.ComponentHabilidadChico), {
@@ -29248,7 +29189,7 @@ const Portfolio = ()=>{
                                                     imagen: (0, _cssPngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 102,
                                                     columnNumber: 13
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentHabilidadChico.ComponentHabilidadChico), {
@@ -29256,13 +29197,13 @@ const Portfolio = ()=>{
                                                     imagen: (0, _javascriptPngDefault.default)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 103,
                                                     columnNumber: 13
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 155,
+                                            lineNumber: 100,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29272,12 +29213,12 @@ const Portfolio = ()=>{
                                                 imagen: (0, _reactPngDefault.default)
                                             }, void 0, false, {
                                                 fileName: "src/Components/Portfolio.jsx",
-                                                lineNumber: 161,
+                                                lineNumber: 106,
                                                 columnNumber: 15
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 160,
+                                            lineNumber: 105,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29301,80 +29242,81 @@ const Portfolio = ()=>{
                                                                 d: "M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"
                                                             }, void 0, false, {
                                                                 fileName: "src/Components/Portfolio.jsx",
-                                                                lineNumber: 171,
+                                                                lineNumber: 116,
                                                                 columnNumber: 17
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Portfolio.jsx",
-                                                            lineNumber: 170,
+                                                            lineNumber: 115,
                                                             columnNumber: 15
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/Components/Portfolio.jsx",
-                                                        lineNumber: 169,
+                                                        lineNumber: 114,
                                                         columnNumber: 15
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 166,
+                                                    lineNumber: 111,
                                                     columnNumber: 15
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "",
+                                                    href: window.location.href,
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",
                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                                         className: "btn margen1rem",
                                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                            src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC"
+                                                            src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2WvW4TQRDHT5GSJogiEtyueQM3gRQEujg0REj5QCiPkI7K3nF5JQGqBPIEnP00kfBMrBAMNCE8AMpGSpoYzQlb571Yd3a8IUjzk7a43b3578fszASBIAiCIAiCINwqylF7JgTaVEBNBXSkgawG6qaa5X4e53k8/9ZoKDh4qQ39cIzlNPyua7RRdPF+NKLulAZ6N5rRwaYMvWU7/0RDG3x/HcN9AaDtYev3pqH4SjOT8FwZ3AmrrcWw2ppNz+dv7lcGPyiDFxkRQ+tXuo0PjXLUnnH9UQGdPKgfzAcFKNXaD3n+4DXjt2Brf7o3x6tGCLTpnkpRw32BeuuRe0oK8FX/NH1qKKCms7OdYAy0oY+O8bg35lVDGfqa7gzh8+M8Q0tN+6LSsCfLjbPuZJr9uRzblTzd+4BPHDc84shwmu68F7Xv5BlKBCe2+LOkVWJ7nKfLaxt8yHj6X21g7nXn7mA0wt9ZF6q2FnM3ENuVSW6iEtvjZ037PE+3VKOnGRdShhrOw9gNxkAD7TnX+6k35lUjvCLEcdwdybDBhVHD6MQ0ypxkuFBykkxRgcQw0C/n/04mkfnU0DXayKR5gxecxtnv3IfN33/9cS+b5vGyZHA1swjfGvqaVWJqUW+GnqRXjag7xaXq+IbxMqkSc8pp7xra0DoXSiOdCFBH13FtqNEb19jan+YXzrWGMvjFTXbJt8FDDmNJJEg92MLchIYgCIIgCIIgBD75A6UzYcAAQdYRAAAAAElFTkSuQmCC",
+                                                            alt: "link"
                                                         }, void 0, false, {
                                                             fileName: "src/Components/Portfolio.jsx",
-                                                            lineNumber: 179,
+                                                            lineNumber: 124,
                                                             columnNumber: 13
                                                         }, undefined)
                                                     }, void 0, false, {
                                                         fileName: "src/Components/Portfolio.jsx",
-                                                        lineNumber: 178,
+                                                        lineNumber: 123,
                                                         columnNumber: 13
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 120,
                                                     columnNumber: 13
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 165,
+                                            lineNumber: 110,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 152,
+                                    lineNumber: 97,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 150,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 83,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 82,
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 80,
+        lineNumber: 27,
         columnNumber: 5
     }, undefined);
 };
