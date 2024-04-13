@@ -22,16 +22,21 @@ const About = () => {
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
-        style={{
-          backgroundColor: "white",
-          width: isMobile ? "80%" : "50%", // Cambia el ancho dependiendo del tamaño de la pantalla
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
+          style={{
+            backgroundColor: "white",
+            margin: "0 auto",
+            width: isMobile ? "100%" : isMobile ? "80%" : "50%",
+            padding: isMobile ? "0rem" : "4rem",
+            paddingBottom: isMobile ? "4rem" : "4rem",
+
+            paddingTop: isMobile ? "4rem" : "4rem",
+            margin: isMobile ? "0rem" : "3rem auto",
+            textAlign: "center",
+
+          }}
       >
         <h2>Acerca de mí</h2>
-        <p className="large letrasChicasMedia" id="sobremi">{description}</p>
+        <p className="large letrasChicasMedia" id="sobremi">{description} </p>
         <hr />
         <p className="letrasChicasMedia" style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>

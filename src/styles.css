@@ -79,6 +79,7 @@ p {
 
 p.large {
   font-size: 24px;
+  padding: 15px;
 }
 
 p.small {
@@ -187,12 +188,20 @@ a:hover {
 
 }
 
-.container .tecnologias {
+.container .redes {
   display: flex;
   flex-direction: row;
   justify-content: center;
 
 }
+
+.container .tecnologias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(8.2rem,100%), 1fr));
+  grid-gap:0.5rem;
+
+}
+
 
 img.socialIcon {
   height: 30px;
@@ -286,13 +295,18 @@ Hint: In your styles.css file, use comments to start to tell Copilot what you wa
 
 @media screen and (max-width: 460px) {
   .letrasChicasMedia {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
+  .letrasChicasHeader {
+    font-size: 0.8rem;
+  }
+
   #sobremi{
     font-size: 1rem;
     align-items: left;
   }
 }
+
 
 
 

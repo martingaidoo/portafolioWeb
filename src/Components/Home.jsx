@@ -53,8 +53,8 @@ const Home = ({ name, title }) => {
     display: "flex",
     gap: "2.0rem",
     position: "absolute",
-    bottom: "1rem",
-    left: "2rem",
+    bottom: "2.3rem",
+    left: "-1rem",
 }}>
 <a href={curriculum} download>
   <button className="buttonCV" type="button">

@@ -40,7 +40,7 @@ const Portfolio = () => {
             <ComponentHabilidadChico title="Node" imagen={node} />
             <ComponentHabilidadChico title="Sqlite" imagen={sqlite} />
               </div>
-              <div className="tecnologias margen1rem">
+              <div className="redes margen1rem">
               <a href="https://github.com/martingaidoo/SistemaGym"
                           target="_blank"
                           rel="noopener noreferrer">
@@ -70,7 +70,7 @@ const Portfolio = () => {
             <ComponentHabilidadChico title="Node" imagen={node} />
             <ComponentHabilidadChico title="Mongo" imagen={mongo} />
               </div>
-              <div className="tecnologias margen1rem">
+              <div className="redes margen1rem">
               <a href="https://github.com/martingaidoo/whatsapp-Bot-turnos"
                           target="_blank"
                           rel="noopener noreferrer">
@@ -101,13 +101,12 @@ const Portfolio = () => {
             <ComponentHabilidadChico title="HTML" imagen={html} />
             <ComponentHabilidadChico title="CSS" imagen={css} />
             <ComponentHabilidadChico title="JavaScript" imagen={javascript} />
+            <ComponentHabilidadChico title="React" imagen={react} />
+
               </div>
-              <div className="tecnologias">
-              <ComponentHabilidadChico title="React" imagen={react} />
+  
 
-                </div>
-
-              <div className="tecnologias margen1rem">
+              <div className="redes margen1rem">
               <a href="https://github.com/martingaidoo/portafolioWeb"
                           target="_blank"
                           rel="noopener noreferrer">
