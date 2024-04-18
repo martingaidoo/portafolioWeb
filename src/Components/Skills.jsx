@@ -29,27 +29,28 @@ export const Skills = () => {
     <h3>Lenguajes</h3>
     <div className='contenedorHabilidades'>
     <ComponentHabilidad imagen={html} nombre="HTML" valor="50%"/>
-    <ComponentHabilidad imagen={css} nombre="css" valor="40%"/>
-    <ComponentHabilidad imagen={javascript} nombre="javascript" valor="55%"/>
-    <ComponentHabilidad imagen={python} nombre="python" valor="70%"/>
-    <ComponentHabilidad imagen={java} nombre="java" valor="50%"/>
+    <ComponentHabilidad imagen={css} nombre="CSS" valor="40%"/>
+    <ComponentHabilidad imagen={javascript} nombre="Javascript" valor="55%"/>
+    <ComponentHabilidad imagen={python} nombre="Python" valor="70%"/>
+    <ComponentHabilidad imagen={java} nombre="Java" valor="50%"/>
     </div>
     <h3>Frameworks y Librerías</h3>
 
     <div className='contenedorHabilidades'>
-    <ComponentHabilidad imagen={react} nombre="react" valor="40%"/>
-    <ComponentHabilidad imagen={node} nombre="node" valor="40%"/>
-    <ComponentHabilidad imagen={express} nombre="express" valor="35%"/>
+    <ComponentHabilidad imagen={react} nombre="React" valor="40%"/>
+    <ComponentHabilidad imagen={node} nombre="Node" valor="40%"/>
+    <ComponentHabilidad imagen={express} nombre="Express" valor="35%"/>
+    <ComponentHabilidad imagen={bootstrap} nombre="Bootstrap" valor="35%"/>
+
     </div>
     <h3>Tecnologías y Herramientas</h3>
 
     <div className='contenedorHabilidades'>
-    <ComponentHabilidad imagen={git} nombre="git" valor="40%"/>
-    <ComponentHabilidad imagen={github} nombre="github" valor="60%"/>
+    <ComponentHabilidad imagen={git} nombre="Git" valor="40%"/>
+    <ComponentHabilidad imagen={github} nombre="Github" valor="60%"/>
     <ComponentHabilidad imagen={npm} nombre="npm" valor="50%"/>
-    <ComponentHabilidad imagen={figma} nombre="figma" valor="50%"/>
-    <ComponentHabilidad imagen={photoshop} nombre="photoshop" valor="60%"/>
-    <ComponentHabilidad imagen={bootstrap} nombre="bootstrap" valor="35%"/>
+    <ComponentHabilidad imagen={figma} nombre="Figma" valor="50%"/>
+    <ComponentHabilidad imagen={photoshop} nombre="Photoshop" valor="60%"/>
 
     </div>
 
