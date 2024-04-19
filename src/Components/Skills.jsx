@@ -25,8 +25,8 @@ import postgresql from '../images/postgresql.png'
 export const Skills = () => {
   return (
     <div id="skills">
-    <h2 style={{ textAlign: "center" }}>HABILIDADES</h2>
-    <h3>Lenguajes</h3>
+    <h2 className='titulosh3 aligncenter'>HABILIDADES</h2>
+    <h3 className='titulosh3'>Lenguajes</h3>
     <div className='contenedorHabilidades'>
     <ComponentHabilidad imagen={html} nombre="HTML" valor="50%"/>
     <ComponentHabilidad imagen={css} nombre="CSS" valor="40%"/>
@@ -34,7 +34,7 @@ export const Skills = () => {
     <ComponentHabilidad imagen={python} nombre="Python" valor="70%"/>
     <ComponentHabilidad imagen={java} nombre="Java" valor="50%"/>
     </div>
-    <h3>Frameworks y Librerías</h3>
+    <h3 className='titulosh3'>Frameworks y Librerías</h3>
 
     <div className='contenedorHabilidades'>
     <ComponentHabilidad imagen={react} nombre="React" valor="40%"/>
@@ -43,7 +43,7 @@ export const Skills = () => {
     <ComponentHabilidad imagen={bootstrap} nombre="Bootstrap" valor="35%"/>
 
     </div>
-    <h3>Tecnologías y Herramientas</h3>
+    <h3 className='titulosh3'> Tecnologías y Herramientas</h3>
 
     <div className='contenedorHabilidades'>
     <ComponentHabilidad imagen={git} nombre="Git" valor="40%"/>
@@ -54,7 +54,7 @@ export const Skills = () => {
 
     </div>
 
-    <h3>Bases De Datos</h3>
+    <h3 className='titulosh3'>Bases De Datos</h3>
     <div className='contenedorHabilidades'>
     <ComponentHabilidad imagen={postgresql} nombre="PostgreSql" valor="40%"/>
     <ComponentHabilidad imagen={mongo} nombre="MongoDB" valor="40%"/>

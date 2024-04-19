@@ -6,8 +6,23 @@
     grid-template-columns: repeat(auto-fit, 
                             minmax(min(8.25rem, 100%), 1fr));
     grid-gap: 0.1rem;
+    justify-items: center; /* Centra los elementos horizontalmente */
+
 }
 
+
+
+.titulosh3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    margin-left: 1rem;
+}
+.aligncenter{
+  text-align: center;
+  font-size: 2rem;
+
+}
 
 .buttonMovil {
     margin: 0;
@@ -16,6 +31,7 @@
     padding: 0;
     border: none;
     cursor: pointer;
+    margin-left: 1rem;
   }
   
   /* button styling */
