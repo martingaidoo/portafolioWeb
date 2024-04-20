@@ -8,7 +8,7 @@
     "start": "parcel",
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://martingaidoo.github.io/portafolioWeb'",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
