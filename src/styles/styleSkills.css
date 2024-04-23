@@ -21,8 +21,8 @@
 .aligncenter{
   text-align: center;
   font-size: 2rem;
-
 }
+
 
 .buttonMovil {
     margin: 0;
@@ -34,6 +34,7 @@
     margin-left: 1rem;
   }
   
+
   /* button styling */
   .buttonMovil {
     --text-stroke-color: rgba(0, 0, 0, 0.6);
@@ -48,6 +49,7 @@
     color: transparent;
     -webkit-text-stroke: 1px var(--text-stroke-color);
   }
+  
   /* this is the text, when you hover on button */
   .hover-text {
     position: absolute;
