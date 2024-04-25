@@ -9,6 +9,8 @@ import React from "react";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import { Header2 } from "./Components/Header2";
+
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import { Skills } from "./Components/Skills";
@@ -43,7 +45,7 @@ const secondaryColor = "#D2F1E4";
 const App = () => {
   return (
     <div id="main">
-      <Header />
+      <Header2 />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Skills />
