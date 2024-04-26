@@ -1,7 +1,7 @@
 /* === removing default button style ===*/
 
 .contenedorHabilidades{
-    margin: 1rem;
+    margin: 0.8rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, 
                             minmax(min(8.25rem, 100%), 1fr));
@@ -13,7 +13,7 @@
 
 
 .titulosh3{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: #000000;
     margin-left: 1rem;
@@ -69,7 +69,7 @@
     filter: drop-shadow(0 0 23px var(--animation-color))
   }
 
-.card {
+.card1 {
     width: 7rem;
     height: 10rem;
     border-radius: 20px;
@@ -77,18 +77,19 @@
     border: 2px solid #757575;
    }
 
-   .card img{
-    margin-top:0.7rem;
-    width: 7rem;
-    height: 7rem;
+   .card1 img{
+    margin-top:0.5rem;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 0.35rem;
+    margin-bottom: 0.8rem;
     border-radius: 20px;
     transition: all .2s;
-   
    }
 
 .card2 {
-  width: 7rem;
-  height: 10rem;
+  width: 6.7rem;
+  height: 9.7rem;
     background-color: #ffffff;
     border-radius: 20px;
     transition: all .2s;
@@ -114,7 +115,7 @@
     padding-right: 0.5rem;
     }
   
-  .skill-box .title {
+  .skill-box .title1 {
     display: block;
     font-size: 14px;
     font-weight: 600;
@@ -153,7 +154,7 @@
     }
   }
   
-  .skill-per .tooltip {
+  .skill-per .tooltip1 {
     position: absolute;
     right: -14px;
     top: -32px;
@@ -167,7 +168,7 @@
     z-index: 1;
   }
   
-  .tooltip::before {
+  .tooltip1::before {
     content: "";
     position: absolute;
     left: 50%;

@@ -16,7 +16,12 @@ body {
 }
 
 
+.button-vacio{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 
+}
 
 div#main {
   display: flex;

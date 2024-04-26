@@ -30,8 +30,10 @@ export const Skills = () => {
     <div className='contenedorHabilidades'>
     <ComponentHabilidad imagen={html} nombre="HTML" valor="50%"/>
     <ComponentHabilidad imagen={css} nombre="CSS" valor="40%"/>
-    <ComponentHabilidad imagen={javascript} nombre="Javascript" valor="55%"/>
+
     <ComponentHabilidad imagen={python} nombre="Python" valor="70%"/>
+    <ComponentHabilidad imagen={javascript} nombre="Javascript" valor="55%"/>
+
     <ComponentHabilidad imagen={java} nombre="Java" valor="50%"/>
     </div>
     <h3 className='titulosh3'>Frameworks y Librerías</h3>
