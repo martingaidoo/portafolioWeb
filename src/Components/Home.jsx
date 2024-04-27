@@ -30,7 +30,7 @@ import curriculum from '../curriculum.pdf';
 import image from "../images/fotoPortadaBandW.jpg";
 
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const imageAltText = "martin gaido";
 
 const Home = ({ name, title }) => {
   

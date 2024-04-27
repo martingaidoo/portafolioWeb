@@ -33,7 +33,7 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>PROYECTOS</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div className="container">
+        <div className="containerr">
 
 
             <div className="box">
@@ -46,7 +46,7 @@ const Portfolio = () => {
             <ComponentHabilidadChico title="Node" imagen={node} />
             <ComponentHabilidadChico title="Sqlite" imagen={sqlite} />
               </div>
-              <div className="redes margen1rem">
+              <div className="redes ">
               <a href="https://github.com/martingaidoo/SistemaGym"
                           target="_blank"
                           rel="noopener noreferrer">

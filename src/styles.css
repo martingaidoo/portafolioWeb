@@ -112,7 +112,7 @@ a:hover {
   color: #4e567e;
 }
 
-.container {
+.containerr {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +124,7 @@ a:hover {
   box-sizing: border-box;
 }
 
-.container .box {
+.containerr .box {
   margin-bottom: 2rem;
   border-radius: 10px;
   border: 1px solid rgb(204, 204, 204);
@@ -137,15 +137,15 @@ a:hover {
 }
 
 @media only screen and (max-width: 690px) {
-  .container .box {
+  .containerr .box {
     flex-direction: column;
     padding: 2rem;
   }
-  .container .Informacion .small{
+  .containerr .Informacion .small{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .container img{
+  .containerr img{
     width: 70%;
     align-items: center;
     justify-content: center;
@@ -180,12 +180,12 @@ a:hover {
 
 }
 @media screen {
-  .container .box {
+  .containerr .box {
     animation: slideInLeft 1s;
   }
 }
 
-.container .Informacion{
+.containerr .Informacion{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,14 +193,19 @@ a:hover {
 
 }
 
-.container .redes {
+.containerr .redes {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
-.container .tecnologias {
+.containerr .redes .btn{
+  padding: 0rem;
+}
+
+
+
+.containerr .tecnologias {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(8.2rem,100%), 1fr));
   grid-gap:0.5rem;
